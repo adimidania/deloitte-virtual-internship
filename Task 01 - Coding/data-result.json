@@ -1,0 +1,16 @@
+{
+    "deviceID": "dh28dslkja",
+    "deviceType": "LaserCutter",
+    "timestamp": 1624445837783,
+    "location": {
+        "country": "japan",
+        "city": "tokyo",
+        "area": "keiyō-industrial-zone",
+        "factory": "daikibo-factory-meiyo",
+        "section": "section-1"
+    },
+    "data": {
+        "status": "healthy",
+        "temperature": 22
+    }
+}
