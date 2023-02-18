@@ -40,7 +40,7 @@ def convertFromFormat2(jsonObject):
     # IMPLEMENT: Conversion From Type 2
     date = datetime.datetime.strptime(jsonObject['timestamp'],
                                       '%Y-%m-%dT%H:%M:%S.%fZ')
-    timestamp = round(
+    timestamp = int(
         (date - datetime.datetime(1970, 1, 1)).total_seconds() * 1000)
 
     result = {
